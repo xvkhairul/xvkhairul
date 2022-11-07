@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*change the background image of html */
+html {
+    background-image: url("images/bazaar1.jpg");
+    background-size: cover;
+    background-attachment: fixed;}
+
+/*set the body to maximum width, style the font */
+body {max-width:1200px;
+      margin: 0px auto; /*top/bottom 0px R/L auto*/
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;}
+
+/*style the page header with the class name page-header*/
+#page-header {
+    color: #000000;
+    padding: 20px;
+	text-align: left;
+	font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("images/wall1.jpg");/*insert background image*/ } 
+	
+/*styling the nav with class = main-menu */
+#main-menu {
+    background-color :  #000033;
+    font-size:14px;
+	text-align:left; }
+
+/*styling the link */
+#main-menu a {
+    background-color: #000033;
+    color: #FFFFFF  ;
+    /*border-color: #00DD00;*/
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px; /*top/bottom 5px R/L 10px*/
+    text-decoration:none;/*no underline for link*/ }
+
+/*code when we hover the link*/
+#main-menu a:hover {
+    background-color: #000033;
+    color: #CCCCCC;
+	} 
+
+/*create space around text-padding class */
+#text_around{
+padding : 10px;}
+
+/*styling the section with page-content class */
+#page-content {
+    background-color: rgba(18, 0, 66, 0.5);/*transparent background colour*/
+	
+    width: 100%;
+    height:450px;
+    margin: 0 auto; /*top/bottom 0px R/L auto*/
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.5; } 
+
+p{padding:10px;}
+
+#write{
+padding:30px;
+text-align:left; 
+}
+
+#page-footer { 
+         margin-top : 10px;
+         align : center;
+	 height:45px;
+         background-color :  #000033;
+         color : white;
+	  text-align:center;	
+         font-size:12px;
+         padding-bottom: 12px;}
